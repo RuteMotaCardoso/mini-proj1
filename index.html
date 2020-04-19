@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="cv-rute">
+  
+    <head>
+      <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+      <script src="scripts/app.js"></script>
+
+      <meta charset="utf-8">
+      <link href="styles/style.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> 
+
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+
+      <title>Cartão de Visita da Rute</title>
+
+  </head>
+
+
+  <body> 
+
+    <header>
+          <img src="images/principal.jpg" alt="Figurativo: Cartão de Visita da Rute">
+
+
+          <div>
+            <a href="#/eu"><img src="images/logo.png" alt="Logo CV da Rute" class="logo"></a>
+            <h1><cor>C</cor>artão de <cor>V</cor>isita da Rute</h1>
+          </div>
+
+          <p class="pHeader">Querem conhecer mais sobre mim? Quem eu sou? O que faço? Os meus hobbies? Então, estão no sítio certo! Explorem!</p>
+    </header>
+
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#/eu">Quem sou eu? </a></li>
+          <li><a href="#/vida-diaria">O que faço?</a></li>
+          <li><a href="#/hobbies">Hobbies</a></li>
+        </ul>
+      </nav>
+
+      <article>
+        <div ng-view></div>
+      </article>
+
+    </section>
+    
+
+    <footer>
+      <p> - Página criada exclusivamente para fins académicos - </p>
+        <!--<a href="https://www.reddit.com/user/rutemcardoso"><img src="https://images-eu.ssl-images-amazon.com/images/I/418PuxYS63L.png" alt="reddit"/>Reddit</a>-->
+        <address><pre>
+        <a data-pin-do="buttonFollow" href="https://www.pinterest.com/pinterest/rutemcardoso2636">Rute&nbsp;Cardoso</a> <a href="https://www.reddit.com/user/rutemcardoso"><img src="images/Reddit_Lockup_OnDark.png" alt="reddit" class="tinylogo"/></a> <a href="https://twitter.com/Rute90255548?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Rute</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </pre></address>
+    </footer>
+
+  </body>
+</html>

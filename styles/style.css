@@ -1,0 +1,131 @@
+* {
+   box-sizing: border-box;
+ }
+ 
+
+body {
+   font-family: 'Raleway', sans-serif;
+   background-color: black;
+   color:white;
+}
+
+header img{
+   width:100%;
+}
+
+h1 {
+   font-family: 'Raleway', sans-serif;
+   font-size: 60px;
+   color: #D471AD;
+   text-align: center;
+   letter-spacing: 5px;
+   margin: 0 0 0 -10px;
+}
+cor{
+   color: rgb(212, 174, 198);
+}
+
+img.logo {
+   float: left;
+   width: 15%; 
+   margin-top: 10px;
+}
+img.tinylogo {
+   height: 16px; 
+}
+p.pHeader {
+   text-align: center;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+   float: left;
+   width: 15%;
+   padding: 5px;
+ }
+
+ /* Style the list inside the menu */
+nav ul {
+   list-style-type: none;
+   padding: 0;
+ }
+
+nav li a {
+   display: block;
+   color: rgb(212, 174, 198);
+   padding: 8px 16px;
+   text-decoration: none;
+ }
+
+ /* Change the link color on hover */
+li a:hover {
+   background-color: #d471ad;
+   color: black;
+   font-weight: bold;
+ }
+
+ 
+article {
+   float: left;
+   width: 75%;
+}
+ 
+div.texto{
+   margin-left: 50%;
+}
+
+ul a {
+   color: rgb(212, 174, 198);
+ } 
+
+/* Clear floats after the columns */
+ section:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ img.imgArticle {
+   float:left;
+   width: 50%;
+   margin: 10px 10px 10px 10px;
+ }
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+   nav, article {
+     width: 100%;
+     height: auto;
+   }
+ }
+
+h2{
+   font-family: 'Raleway', sans-serif;
+   font-size: 40px;
+   color: #d471ad;
+}
+
+h3 {
+   font-family: 'Caveat', cursive;
+   font-size: xx-large;
+   color: rgb(212, 174, 198);
+ }
+
+ p {
+    font-size: 16px;
+    line-height: 2;
+ }
+
+pre{
+   font-family: 'Raleway', sans-serif;
+}
+ footer {
+    font-style: italic;
+    text-align: center;
+    color: #686466;
+ }
+
+ footer address a {
+    margin: 0 15px 0 15px;
+    box-align: top;
+ }
